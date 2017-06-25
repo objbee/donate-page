@@ -3,6 +3,7 @@ html, html>body {
 	padding: 0px !important;
 	height: 100%;
 	width: 100%;
+	background: transparent;
 }
 body {
 	font-family: "Helvetica Neue", Ubuntu, "WenQuanYi Micro Hei", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei", "Apple LiGothic Medium", "SimHei", "ST Heiti", "WenQuanYi Zen Hei Sharp", Arial, sans-serif;
@@ -93,20 +94,6 @@ a{
 }
 #donateBox a {
 	display: block;
-}
-#donateBox #PayPal {
-	background-image: url(images/paypal.svg);
-}
-#donateBox>#BTC {
-	background-image: url(images/bitcoin.svg);
-	line-height: 28px;
-}
-#donateBox>#BTC:hover {
-	overflow: visible;
-}
-#BTC>button {
-	opacity: 0;
-	cursor: pointer;
 }
 #donateBox #AliPay {
 	background-image: url(images/alipay.svg);
