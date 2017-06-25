@@ -130,7 +130,7 @@ a{
 #github {
 	width: 24px;
 	height: 24px;
-	left: calc(50% + 15px);
+	left: calc(50% + 17.5px);
 	top: calc(50% - 30px);
 	background: no-repeat center center url(images/github.svg);
 	background-size: contain;
